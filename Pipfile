@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+py-ms = "==2.8.0"
+flask-script = "==2.0.6"
+marshmallow = "==3.13.0"
+pytest = "==6.2.5"
+okta = "==2.1.0"
+pytest-mock = "==3.6.1"
+pytest-cov = "==2.12.1"
+pytest-asyncio = "==0.15.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
